@@ -59,7 +59,7 @@
     <org.exoplatform.wiki.version>4.0.x-SNAPSHOT</org.exoplatform.wiki.version>
     <org.exoplatform.calendar.version>4.0.x-SNAPSHOT</org.exoplatform.calendar.version>
     <org.exoplatform.integ.version>4.0.x-SNAPSHOT</org.exoplatform.integ.version>
-    <org.exoplatform.platform-ui.version>4.0.x-SNAPSHOT</org.exoplatform.platform-ui.version>
+    <org.exoplatform.platform-ui.version>4.1.0-SNAPSHOT</org.exoplatform.platform-ui.version>
   </properties>
   <dependencyManagement>
     <!-- ### NEVER CHANGE THIS ORDER OF DEPMGT ### -->
@@ -183,6 +183,18 @@
       <dependency>
         <groupId>org.exoplatform.platform</groupId>
         <artifactId>platform-extension-portlets-platformNavigation</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-extension-portlets-notification</artifactId>
+        <version>${project.version}</version>
+        <type>war</type>
+      </dependency>
+      <dependency>
+        <groupId>org.exoplatform.platform</groupId>
+        <artifactId>platform-extension-portlets-notification</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>

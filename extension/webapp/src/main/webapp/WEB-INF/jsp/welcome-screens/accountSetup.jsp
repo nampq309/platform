@@ -96,10 +96,9 @@
             </div>
     </div>
     <!-- Please do not make it Button it may cause blocker problem -->
-    <div class="bottom">
-        <button class="btn btn-primary" id="continueButton" onclick="WelcomeScreens.exit();return false;">Submit</button>
-        <button class="btn" name="setupbutton" value="skipform">Skip</button>
-    </div>
+
+    <div class="bottom"><button type="button class="btn btn-primary" id="continueButton" onclick="WelcomeScreens.exit();return false;">Submit</button></div>
+
 </div>
 </div>
 <div>
@@ -113,7 +112,11 @@
             </p>
             <div class="screenShot"><a href="javascript:void(0);"><img src="/platform-extension/css/welcome-screens/images/greetingSS.png" alt="" width="404" height="172"/></a></div>
         </div>
+<<<<<<< HEAD
         <div class="bottom"><button name="setupbutton" value="submitform" class="btn btn-primary">Start</button></div>
+=======
+        <div class="bottom"><button type="button class="btn btn-primary" >Start</button></div>
+>>>>>>> feature/social-notifications
     </div>
 </div>
 </form>
